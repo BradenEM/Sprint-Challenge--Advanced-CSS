@@ -2,6 +2,8 @@
 
 .home {
   .top {
+    position: sticky;
+    top: -70px;
     .center;
     .column;
 
@@ -20,6 +22,10 @@
       justify-content: space-around;
       width: 100%;
       padding: 2rem 18rem 1rem 18rem;
+      position: sticky;
+      top: 0;
+      background-color: @nav-bg;
+      opacity: 0.5;
 
       @media @mobile {
         width: 100%;
@@ -31,6 +37,8 @@
         text-decoration: none;
         color: @nav-font;
         font-size: 1.6rem;
+        position: sticky;
+        top: 0;
       }
     }
   }

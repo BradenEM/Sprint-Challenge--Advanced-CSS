@@ -181,6 +181,8 @@ p {
   }
 }
 .home .top {
+  position: sticky;
+  top: -70px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -203,6 +205,10 @@ p {
   justify-content: space-around;
   width: 100%;
   padding: 2rem 18rem 1rem 18rem;
+  position: sticky;
+  top: 0;
+  background-color: #f6f6f6;
+  opacity: 0.5;
 }
 @media (max-width: 500px) {
   .home .top .navbar {
@@ -216,6 +222,8 @@ p {
   text-decoration: none;
   color: #454a59;
   font-size: 1.6rem;
+  position: sticky;
+  top: 0;
 }
 footer {
   color: #22283b;
@@ -239,6 +247,7 @@ footer {
   width: 100%;
   background-color: #f6f6f6;
   border-bottom: 1px solid #f1f1f1;
+  opacity: 0.5;
 }
 @media (max-width: 500px) {
   .home {
