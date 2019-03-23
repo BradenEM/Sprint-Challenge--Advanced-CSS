@@ -211,6 +211,9 @@ p {
   background-color: #f6f6f6;
   opacity: 0.5;
 }
+.home .top .navbar:hover {
+  opacity: 1;
+}
 @media (max-width: 500px) {
   .home .top .navbar {
     width: 100%;
@@ -245,7 +248,6 @@ footer {
 }
 .nav-styling {
   position: absolute;
-  z-index: -1;
   height: 106px;
   width: 100%;
   background-color: #f6f6f6;
