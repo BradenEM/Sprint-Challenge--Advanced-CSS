@@ -194,6 +194,7 @@ p {
 @media (max-width: 500px) {
   .home .top {
     width: 100%;
+    position: static;
   }
 }
 .home .top .title h1 {
@@ -216,6 +217,8 @@ p {
     margin: 0 1rem 0 1rem;
     padding: 1rem 0 0.5rem 0;
     justify-content: space-evenly;
+    position: static;
+    opacity: 1;
   }
 }
 .home .top .navbar a {
@@ -248,6 +251,11 @@ footer {
   background-color: #f6f6f6;
   border-bottom: 1px solid #f1f1f1;
   opacity: 0.5;
+}
+@media (max-width: 500px) {
+  .nav-styling {
+    opacity: 1;
+  }
 }
 @media (max-width: 500px) {
   .home {
