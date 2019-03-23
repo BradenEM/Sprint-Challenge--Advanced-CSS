@@ -5,6 +5,9 @@
     .center;
     .column;
 
+    @media @mobile {
+      width: 100%;
+    }
     .title {
       h1 {
         font-size: 4rem;
@@ -17,9 +20,16 @@
       justify-content: space-around;
       width: 100%;
       padding: 2rem 18rem 1rem 18rem;
+
+      @media @mobile {
+        width: 100%;
+        margin: 0 1rem 0 1rem;
+        padding: 1rem 0 0.5rem 0;
+        justify-content: space-evenly;
+      }
       a {
         text-decoration: none;
-        color: black;
+        color: @nav-font;
         font-size: 1.6rem;
       }
     }
