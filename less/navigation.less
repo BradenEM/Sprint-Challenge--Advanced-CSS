@@ -1,1 +1,52 @@
 // Navigation code here
+
+.home {
+  .top {
+    position: sticky;
+    top: -70px;
+    .center;
+    .column;
+
+    @media @mobile {
+      width: 100%;
+      position: static;
+    }
+    .title {
+      h1 {
+        font-size: 4rem;
+        padding-top: 2rem;
+      }
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      padding: 2rem 18rem 1rem 18rem;
+      position: sticky;
+      top: 0;
+      background-color: @nav-bg;
+      opacity: 0.5;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      @media @mobile {
+        width: 100%;
+        margin: 0 1rem 0 1rem;
+        padding: 1rem 0 0.5rem 0;
+        justify-content: space-evenly;
+        position: static;
+        opacity: 1;
+      }
+      a {
+        text-decoration: none;
+        color: @nav-font;
+        font-size: 1.6rem;
+        position: sticky;
+        top: 0;
+      }
+    }
+  }
+}

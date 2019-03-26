@@ -1,1 +1,30 @@
 // Mixins Here
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.button(@btn-bg-color, @radius, @weight) {
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 10px 15px;
+  margin-right: 70%;
+  color: @porcelain;
+  background-color: @btn-bg-color;
+  border-radius: @radius;
+  font-weight: @weight;
+}
+
+.hover-state {
+  background-color: @porcelain;
+  color: @btn-bg-color;
+}
